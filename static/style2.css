@@ -1,0 +1,36 @@
+
+h1 {
+    font-weight: bold;
+    color: white;
+    margin-left: 30px;
+    background: black;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 30px;
+    color: blue;
+    margin-left: 40px;
+}
+
+.foto {
+    width: 150px;
+    height: 200px;
+    margin-left: 60px;
+    
+}
+
+.mylist {
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 26px;
+    margin-left: 40px;
+}
+
+#info {
+    margin-left: 45px;
+}

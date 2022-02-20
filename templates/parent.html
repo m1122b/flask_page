@@ -1,0 +1,19 @@
+
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+    {% block head %}
+        <meta charset="utf-8">
+        <title>Moja pierwsza strona!!!!!!</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    {% endblock %}
+    </head>
+    <body>
+    
+        <h1>Witaj na mojej stronie domowej.</h1>
+        <img class="foto" src="https://filing.pl/wp-content/uploads/2014/09/filing_images_0b3489b90850.jpg" alt="Zdjęcie." title="zdjęcie" >
+        <div id="content">{% block content %}{% endblock %}</div>
+    
+
+    </body>
+</html>
